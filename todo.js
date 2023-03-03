@@ -32,4 +32,3 @@ document.getElementById("input-btn").addEventListener("click", function () {
 document.getElementById("clear-btn").addEventListener("click", function (e) {
   e.target.parentNode.style.display = "none";
 });
-{/* <div ><i class="fa-regular fa-square-check"></i></div> */}
