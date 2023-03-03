@@ -19,8 +19,12 @@ document.getElementById("input-btn").addEventListener("click", function () {
   for(const deleteButton of deleteButtons) {
     deleteButton.addEventListener("click", function (e) {
       e.target.parentNode.parentNode.style.display = "none";
-      
-
+    });
+  }
+  const doneButtons = document.querySelectorAll(".donebtn");
+  for(const doneButton of doneButtons) {
+    doneButton.addEventListener("click", function (e) {
+      e.target.parentNode.parentNode.style.textDecoration = "line-through";
     });
   }
 });
